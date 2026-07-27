@@ -1,2 +1,4 @@
-print('hello world!')
-print('how are you?')
+import numpy as np
+import mne 
+
+print('MNE activated successfully')
