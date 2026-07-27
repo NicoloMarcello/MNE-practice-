@@ -1,0 +1,8 @@
+'Read_raw_fif'= displays some information 
+about the file it’s loading; for example, 
+here it tells us that there are four “projection items” 
+in the file along with the recorded data, which are SSP projectors calculated to remove 
+environmental noise from the MEG signal, and a projector to mean-reference the EEG channels
+
+'info' = prints a dictionary like object that is preseved across raw, epoch and evoked objects (makes sense later).
+keeps track of channel locations, applied filters, projectors etc. 
