@@ -3,6 +3,15 @@ about the file it’s loading; for example,
 here it tells us that there are four “projection items” 
 in the file along with the recorded data, which are SSP projectors calculated to remove 
 environmental noise from the MEG signal, and a projector to mean-reference the EEG channels
+https://mne.tools/stable/generated/mne.io.read_raw_fif.html#mne.io.read_raw_fif
 
 'info' = prints a dictionary like object that is preseved across raw, epoch and evoked objects (makes sense later).
 keeps track of channel locations, applied filters, projectors etc. 
+https://mne.tools/stable/generated/mne.Info.html#mne.Info
+
+'raw' as an object = raw data in the format of FIF
+https://mne.tools/stable/generated/mne.io.Raw.html#mne.io.Raw
+
+'compute_psd'= computes 'Power Spectral Density' for each sensor type for sensor data. has minimum and maximum frequencies, times and
+you pick each channel to include via picks
+https://mne.tools/stable/generated/mne.io.Raw.html#mne.io.Raw.compute_psd
