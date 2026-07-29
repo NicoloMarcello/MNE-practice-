@@ -49,3 +49,14 @@ This method works based on the idea that if there happened to be some time-varyi
 compensated for (to some extent) in the equalization process
 https://mne.tools/stable/generated/mne.Epochs.html#mne.Epochs.equalize_event_counts
 
+'mne.time_frequency' submodule = time frequency analysis tools
+https://mne.tools/stable/api/time_frequency.html#module-mne.time_frequency
+
+'epochs.average' = computes the average over Epochs
+https://mne.tools/stable/generated/mne.Epochs.html#mne.Epochs.average
+
+'mne.viz' module = visualisation of data module
+https://mne.tools/stable/api/visualization.html#module-mne.viz
+
+'mne.combine_evoked' = combines evoked objects to show contrast between the conditions only. subtraction done by passing weights = [1,-1]. returns new evoked data
+https://mne.tools/stable/generated/mne.combine_evoked.html#mne.combine_evoked
