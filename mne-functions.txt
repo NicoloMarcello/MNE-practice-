@@ -15,3 +15,24 @@ https://mne.tools/stable/generated/mne.io.Raw.html#mne.io.Raw
 'compute_psd'= computes 'Power Spectral Density' for each sensor type for sensor data. has minimum and maximum frequencies, times and
 you pick each channel to include via picks
 https://mne.tools/stable/generated/mne.io.Raw.html#mne.io.Raw.compute_psd
+
+
+'plot' = plots rawdata, with parameters such as time window (duration), number of channels you want to plot (n_channels)
+https://mne.tools/stable/generated/mne.io.Raw.html#mne.io.Raw.plot
+
+'mne.preprocessing' = u can basically do any preprocessing function using these functions below
+https://mne.tools/stable/api/preprocessing.html#module-mne.preprocessing
+
+'mne.filter' = same shit as above, filtering data functions
+https://mne.tools/stable/api/preprocessing.html#module-mne.filter
+
+'mne.preprocessing.ica' = one function of preprocesing that decomposes data using Independent Component Analysis. can be used to determine artifact data from the eye and the hearbeat 
+https://mne.tools/stable/generated/mne.preprocessing.ICA.html#mne.preprocessing.ICA
+
+'ica.exclude' and 'ica.apply' are used in synergy to remove articatual data. the data must be loaded into memory before ica.apply can function properly. 
+https://mne.tools/stable/generated/mne.preprocessing.ICA.html#mne.preprocessing.ICA.apply
+
+'mne.findevents' = Find events from raw file. See Parsing events from raw data and Working with events for more information about events.
+https://mne.tools/stable/generated/mne.find_events.html#mne.find_events
+
+
